@@ -1,0 +1,66 @@
+.container {
+  width: 960px;
+  margin: auto;
+
+  .header {
+    width: 100%;
+
+    justify-content: center;
+
+    background-color: #376281;
+    padding-bottom: 30px;
+
+    .img {
+
+      margin-left: 40%;
+
+      img {
+        width: 240px;
+        // 先把圖片高度寫死 防止圖片變形
+        height: 240px;
+        border-radius: 50%
+      }
+    }
+
+
+    h1,
+    p {
+      text-align: center;
+    }
+  }
+
+
+  .info-area {
+    margin-left: 64px;
+
+    .second-title {
+      display: flex;
+      justify-content: left;
+
+      h5 {
+        font-size: 18px;
+      }
+
+    }
+
+  }
+
+
+  .skill-area {
+    margin: 100px 0;
+    padding-top: 30px;
+    background-color: #376281;
+    text-align: center;
+    color: white;
+    padding-bottom: 30px;
+  }
+
+  .work-aera {
+    
+    padding-top: 30px;
+    padding-bottom: 30px;
+   
+  }
+
+
+}
